@@ -17,14 +17,14 @@ Chạy i = 5
 Mỗi vòng lặp i sẽ là xuống dòng, console.log() */
 
 //---------------- Cach 1 ----------------
-const n = prompt("Nhap n:");
+const n = prompt("Nhap n: ")
 for(let i = 1; i <= n; i++){
-    let a = "";
-    for(let j = 1; j<=i; j++){
-        a = a.concat("*");
-    }
-    console.log(a);
-    console.log("\n");
+  let a = ""
+  for(let j = 1; j <=i; j++){
+    a = a.concat("*")
+  }
+  console.log(a);
+  console.log("\n")
 }
 
 //---------------- Cach 2 ----------------
@@ -34,5 +34,14 @@ for(let i = 1; i <= n; i++){
         document.write("*")
     }
     document.write("<br>");
+}
+
+//---------------- Cach 3 ----------------
+const n = prompt("Nhap n:");
+let a = ""
+for(let i = 0; i < n; i++){
+    a+="*"
+    console.log(a)
+    console.log("\n")
 }
 

@@ -1,8 +1,8 @@
-/*Đề bài:
-        ***
-        **
-        *
-*/
+// /*Đề bài:
+//         ***
+//         **
+//         *
+// */
 //----------------- Cach 1 -----------------
 const n = prompt("Nhap n: ");
 for(let i = n; i >= 1; i--){
@@ -15,7 +15,7 @@ for(let i = n; i >= 1; i--){
 
 }
 
-//----------------- Cach 2 -----------------
+//---------------- Cach 2 -----------------
 const n = prompt("Nhap n: ");
 for(let i = n; i >= 1; i--){
     for(let j=i; j>=1; j--){
@@ -23,4 +23,16 @@ for(let i = n; i >= 1; i--){
     }
     document.write("<br>")
 
+}
+
+//----------------- Cach 3 -----------------
+let a = ""
+const n = prompt("Nhap n")
+for (let i = 0; i < n; i++) {
+    a += "*"
+}
+for (let i = 0; i < n; i++) {
+    console.log(a)
+    console.log("\n")
+    a = a.substr(0, a.length - 1)
 }
